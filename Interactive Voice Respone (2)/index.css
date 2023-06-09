@@ -1,0 +1,237 @@
+.voice-1-1 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 76px;
+  height: 67px;
+  object-fit: cover;
+}
+.home-page-child {
+  position: absolute;
+  bottom: 963px;
+  left: calc(50% + 528px);
+  border-radius: var(--br-xl);
+  background-color: var(--vrgear-light-color-secondary);
+  width: 163px;
+  height: 46px;
+  cursor: pointer;
+}
+.sign-in {
+  top: 15px;
+  left: 1150px;
+  width: 98px;
+  height: 42px;
+  cursor: pointer;
+}
+.home,
+.ivr,
+.sign-in {
+  position: absolute;
+  display: inline-block;
+}
+.ivr {
+  top: 0;
+  left: calc(50% - 598px);
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  width: 269px;
+  height: 49px;
+}
+.home {
+  top: 86px;
+  left: 13px;
+  width: 84px;
+  height: 25px;
+}
+.about-us,
+.contact-us {
+  width: 146px;
+  height: 25px;
+}
+.contact-us {
+  position: absolute;
+  top: 87px;
+  left: 259px;
+  display: inline-block;
+}
+.about-us {
+  top: 88px;
+  left: 427px;
+}
+.about-us,
+.products,
+.register {
+  position: absolute;
+  display: inline-block;
+}
+.products {
+  top: 87px;
+  left: 119px;
+  width: 118px;
+  height: 25px;
+}
+.register {
+  top: 19px;
+  right: 35px;
+  width: 124px;
+  height: 21px;
+}
+.bg-child,
+.bg-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bg-child {
+  background-color: var(--vrgear-light-color-secondary);
+}
+.bg-item {
+  background: linear-gradient(
+    -77.86deg,
+    rgba(65, 54, 54, 0.16),
+    rgba(255, 255, 255, 0.16)
+  );
+}
+.bg-inner {
+  position: absolute;
+  bottom: 100px;
+  left: calc(50% - 579px);
+  border-radius: var(--br-xl);
+  background-color: var(--vrgear-light-color-text-on-top);
+  width: 182px;
+  height: 46px;
+}
+.bg,
+.interactive {
+  position: absolute;
+  left: 0;
+}
+.bg {
+  height: calc(100% - 298px);
+  width: 100%;
+  top: 205px;
+  right: 0;
+  bottom: 93px;
+}
+.interactive {
+  top: calc(50% - 84px);
+  letter-spacing: -0.01em;
+  line-height: 104px;
+}
+.voice-response {
+  position: absolute;
+  top: calc(50% + 28px);
+  left: 0;
+  font-size: var(--font-size-29xl);
+  line-height: 56px;
+  font-family: var(--font-port-lligat-sans);
+}
+.interactive-parent {
+  position: absolute;
+  top: calc(50% - 178px);
+  left: 141px;
+  width: 527px;
+  height: 168px;
+  font-size: var(--font-size-77xl);
+  color: var(--vrgear-light-color-text-on-top);
+}
+.choose-language,
+.home-page2 {
+  position: absolute;
+  color: var(--color-black);
+}
+.home-page2 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+}
+.choose-language {
+  top: 615px;
+  left: 141px;
+  font-size: var(--font-size-29xl);
+  line-height: 56px;
+  display: inline-block;
+  width: 471px;
+  height: 71px;
+}
+.home-page-item {
+  position: absolute;
+  bottom: 274px;
+  left: calc(50% - 579px);
+  border-radius: var(--br-xl);
+  background-color: var(--vrgear-light-color-text-on-top);
+  width: 182px;
+  height: 46px;
+}
+.english,
+.urdu {
+  position: absolute;
+  top: 698px;
+  left: 190px;
+  line-height: 56px;
+  display: inline-block;
+  width: 137px;
+  height: 21px;
+}
+.urdu {
+  top: 782px;
+  left: 201px;
+  width: 90px;
+  height: 26px;
+}
+.vr-image-icon {
+  position: absolute;
+  top: calc(50% - 178px);
+  right: 54px;
+  border-radius: 332.5px;
+  width: 465px;
+  height: 461px;
+  object-fit: cover;
+}
+.choose-language1 {
+  position: absolute;
+  top: 615px;
+  left: 141px;
+  font-size: var(--font-size-29xl);
+  line-height: 56px;
+  color: var(--vrgear-light-color-text-on-top);
+  display: inline-block;
+  width: 471px;
+  height: 71px;
+}
+.home-page-inner,
+.home-page1 {
+  position: absolute;
+  cursor: pointer;
+}
+.home-page-inner {
+  bottom: 274px;
+  left: calc(50% - 579px);
+  border-radius: var(--br-xl);
+  background-color: var(--vrgear-light-color-text-on-top);
+  width: 182px;
+  height: 46px;
+}
+.home-page1 {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+}
+.home-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+

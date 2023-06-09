@@ -1,0 +1,207 @@
+.bg-child6,
+.bg-child7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bg-child6 {
+  background-color: var(--vrgear-light-color-secondary);
+}
+.bg-child7 {
+  background: linear-gradient(
+    -77.86deg,
+    rgba(65, 54, 54, 0.16),
+    rgba(255, 255, 255, 0.16)
+  );
+}
+.bg-child8 {
+  position: absolute;
+  top: 458px;
+  left: 893px;
+  border-radius: var(--br-xl);
+  background-color: var(--vrgear-light-color-text-on-top);
+  width: 219px;
+  height: 70px;
+  cursor: pointer;
+}
+.voice-1-19 {
+  position: absolute;
+  top: 215px;
+  left: 174px;
+  width: 315px;
+  height: 278px;
+  object-fit: cover;
+}
+.bg2 {
+  position: absolute;
+  height: calc(100% - 298px);
+  width: 100%;
+  top: 194px;
+  right: 0;
+  bottom: 104px;
+  left: 0;
+}
+.ivr13,
+.voice-1-110 {
+  position: absolute;
+  top: 0;
+}
+.voice-1-110 {
+  left: 24px;
+  width: 76px;
+  height: 67px;
+  object-fit: cover;
+}
+.ivr13 {
+  left: calc(50% - 598px);
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 269px;
+  height: 49px;
+}
+.about-us9,
+.contact-us9,
+.home10,
+.products9 {
+  position: absolute;
+  display: inline-block;
+  height: 25px;
+}
+.home10 {
+  top: 86px;
+  left: 13px;
+  width: 84px;
+  cursor: pointer;
+}
+.about-us9,
+.contact-us9,
+.products9 {
+  top: 87px;
+  left: 259px;
+  width: 146px;
+}
+.about-us9,
+.products9 {
+  top: 88px;
+  left: 427px;
+}
+.products9 {
+  top: 87px;
+  left: 119px;
+  width: 118px;
+}
+.sign-in-page-child,
+.sign-in-page-item {
+  position: absolute;
+  bottom: 963px;
+  left: calc(50% + 528px);
+  border-radius: var(--br-xl);
+  background-color: var(--vrgear-light-color-secondary);
+  width: 163px;
+  height: 46px;
+}
+.sign-in-page-item {
+  cursor: pointer;
+}
+.register5,
+.sign-in3 {
+  position: absolute;
+  display: inline-block;
+}
+.register5 {
+  top: 19px;
+  right: 75px;
+  width: 124px;
+  height: 21px;
+}
+.sign-in3 {
+  top: 18px;
+  left: 1145px;
+  width: 190px;
+  height: 54px;
+}
+.sign-in4,
+.to-ivr1 {
+  position: absolute;
+  left: 0;
+}
+.sign-in4 {
+  top: calc(50% - 84px);
+  width: 600px;
+  letter-spacing: -0.01em;
+  line-height: 104px;
+}
+.to-ivr1 {
+  left: 160px;
+  top: calc(50% - 75px);
+  font-size: var(--font-size-29xl);
+  line-height: 56px;
+  font-family: var(--font-port-lligat-sans);
+}
+.sign-in-parent {
+  position: absolute;
+  top: calc(50% - 178px);
+  left: 141px;
+  width: 322px;
+  height: 168px;
+  font-size: var(--font-size-77xl);
+  color: var(--vrgear-light-color-text-on-top);
+}
+.sign-in-page-child1,
+.sign-in-page-inner {
+  position: absolute;
+  top: 420px;
+  left: 893px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  width: 470px;
+  height: 70px;
+}
+.sign-in-page-child1 {
+  top: 530px;
+}
+.enter-password1 {
+  top: 541px;
+  left: 916px;
+  opacity: 0.5;
+}
+.enter-email1,
+.enter-password1,
+.sign-in5 {
+  position: absolute;
+  line-height: 56px;
+  display: inline-block;
+  width: 296px;
+  height: 47px;
+}
+.sign-in5 {
+  top: 663px;
+  left: 964px;
+  color: var(--color-white);
+}
+.enter-email1 {
+  top: 431px;
+  left: 916px;
+  opacity: 0.5;
+}
+.sign-in-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+#email::placeholder,
+#password::placeholder {
+  font-weight: 300;
+  font-size: x-large;
+}

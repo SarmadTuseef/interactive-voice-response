@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Recharge.module.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Port Lligat Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="recharge">
+      <img class="voice-1-15" alt="" src="./public/voice-1-1@2x.png" />
+
+      <div class="ivr9">IVR</div>
+      <div class="home7" id="homeText">Home</div>
+      <div class="contact-us5">Contact Us</div>
+      <div class="about-us5">About Us</div>
+      <div class="products5">Products</div>
+      <img
+        class="christopher-campbell-rdeovte7v-icon6"
+        alt=""
+        src="./public/christophercampbellrdeovte7vosunsplash-1@2x.png"
+        id="christopherCampbellRDEOVtE7vImage"
+      />
+
+      <div class="recharge-child"></div>
+      <div class="sarah6">Sarah</div>
+      <div class="recharge-item"></div>
+      <b class="recharge1">Recharge </b>
+      <img class="image-7-icon" alt="" src="./public/image-7@2x.png" />
+
+      <div class="ivr10">IVR</div>
+      <div class="recharge-inner"></div>
+      <div class="recharge-child1" id="rectangle3"></div>
+      <div class="recharge-child2" id="rectangle4"></div>
+      <div class="choose-the-recharge">Choose The Recharge Method</div>
+      <div class="recharge-child3" id="rectangle5"></div>
+      <img class="phoe-1-icon" alt="" src="./public/phoe-1@2x.png" />
+
+      <div class="debitcredit-card">Debit/Credit Card</div>
+      <div class="scratch-card2">Scratch Card</div>
+      <div class="back3">Back</div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var christopherCampbellRDEOVtE7vImage = document.getElementById(
+        "christopherCampbellRDEOVtE7vImage"
+      );
+      if (christopherCampbellRDEOVtE7vImage) {
+        christopherCampbellRDEOVtE7vImage.addEventListener("click", function (e) {
+          window.location.href = "./Profile.html";
+        });
+      }
+      
+      var rectangle3 = document.getElementById("rectangle3");
+      if (rectangle3) {
+        rectangle3.addEventListener("click", function (e) {
+          window.location.href = "./ScratchCard.html";
+        });
+      }
+      
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./MainMenu.html";
+        });
+      }
+      
+      var rectangle5 = document.getElementById("rectangle5");
+      if (rectangle5) {
+        rectangle5.addEventListener("click", function (e) {
+          window.location.href = "./Card.html";
+        });
+      }
+      </script>
+  </body>
+</html>

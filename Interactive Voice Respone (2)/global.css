@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-port-lligat-sans: "Port Lligat Sans";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+  --font-size-77xl: 96px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-11xl: 30px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-17xl: 36px;
+  --font-size-45xl: 64px;
+  --font-size-10xl: 29px;
+
+  /* Colors */
+  --color-white: #fff;
+  --vrgear-light-color-text-on-top: #174478;
+  --color-black: #000;
+  --vrgear-light-color-secondary: #59d48e;
+  --color-gray-100: rgba(0, 0, 0, 0.75);
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-gainsboro: #e2dede;
+  --color-whitesmoke-100: #eceaea;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-6xl: 25px;
+  --br-8xl: 27px;
+  --br-46xl: 65px;
+  --br-49xl: 68px;
+}

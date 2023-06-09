@@ -1,0 +1,240 @@
+.ivr14,
+.voice-1-111 {
+  position: absolute;
+  top: 0;
+}
+.voice-1-111 {
+  left: 24px;
+  width: 76px;
+  height: 67px;
+  object-fit: cover;
+}
+.ivr14 {
+  left: calc(50% - 598px);
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 269px;
+  height: 49px;
+}
+.about-us11,
+.contact-us11,
+.home11,
+.products11 {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  height: 25px;
+}
+.home11 {
+  top: 86px;
+  left: 13px;
+  width: 84px;
+  cursor: pointer;
+}
+.about-us11,
+.contact-us11,
+.products11 {
+  top: 87px;
+  left: 259px;
+  width: 146px;
+}
+.about-us11,
+.products11 {
+  top: 88px;
+  left: 427px;
+}
+.products11 {
+  top: 87px;
+  left: 119px;
+  width: 118px;
+}
+.christopher-campbell-rdeovte7v-icon8 {
+  position: absolute;
+  top: 9px;
+  left: 1293px;
+  border-radius: var(--br-49xl);
+  width: 135px;
+  height: 136px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.main-menu-child {
+  position: absolute;
+  top: 46px;
+  left: 1031px;
+  border-radius: var(--br-46xl);
+  background-color: var(--vrgear-light-color-secondary);
+  width: 238px;
+  height: 63px;
+}
+.sarah8 {
+  position: absolute;
+  top: 49px;
+  left: 1094px;
+  font-size: var(--font-size-17xl);
+  color: var(--vrgear-light-color-text-on-top);
+  display: inline-block;
+  width: 175px;
+  height: 68px;
+}
+.bg-child9 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: var(--vrgear-light-color-secondary);
+}
+.bg-child10,
+.bg-child9,
+.bg3 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.bg-child10 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+    -77.86deg,
+    rgba(89, 212, 142, 0.16),
+    rgba(255, 255, 255, 0.16)
+  );
+}
+.bg3 {
+  height: calc(100% - 298px);
+  top: 205px;
+  bottom: 93px;
+}
+.main-menu-item {
+  position: absolute;
+  top: 268px;
+  left: 697px;
+  border-radius: var(--br-8xl);
+  background-color: #f5f4f4;
+  width: 694px;
+  height: 599px;
+}
+.main-menu-child1,
+.main-menu-child2,
+.main-menu-child3,
+.main-menu-child4,
+.main-menu-inner {
+  position: absolute;
+  top: 363px;
+  left: 739px;
+  border-radius: var(--br-6xl);
+  background-color: var(--vrgear-light-color-text-on-top);
+  width: 600px;
+  height: 67px;
+  cursor: pointer;
+}
+.main-menu-child1,
+.main-menu-child2,
+.main-menu-child3,
+.main-menu-child4 {
+  top: 615px;
+}
+.main-menu-child2,
+.main-menu-child3,
+.main-menu-child4 {
+  top: 530px;
+}
+.main-menu-child3,
+.main-menu-child4 {
+  top: 697px;
+}
+.main-menu-child4 {
+  top: 448px;
+}
+.main-menu1 {
+  top: 335px;
+  left: 49px;
+  font-size: var(--font-size-77xl);
+  letter-spacing: -0.01em;
+  line-height: 104px;
+  color: var(--vrgear-light-color-text-on-top);
+  width: 546px;
+  height: 113px;
+}
+.choose-the-desired2,
+.ivr15,
+.main-menu1 {
+  position: absolute;
+  display: inline-block;
+}
+.ivr15 {
+  top: 391px;
+  left: 49px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: -0.01em;
+  line-height: 104px;
+  font-weight: 600;
+  color: var(--vrgear-light-color-text-on-top);
+  width: 261px;
+  height: 78px;
+}
+.choose-the-desired2 {
+  top: 286px;
+  left: 739px;
+  font-size: var(--font-size-17xl);
+  width: 490px;
+  height: 57px;
+}
+.account-balance1,
+.recharge-options {
+  position: absolute;
+  left: 899px;
+  display: inline-block;
+}
+.account-balance1 {
+  top: 373px;
+  color: #fafafa;
+  width: 334px;
+  height: 45px;
+}
+.recharge-options {
+  top: 454px;
+  color: var(--color-white);
+  width: 330px;
+  height: 43px;
+}
+.technical-support2 {
+  top: 535px;
+  left: 895px;
+  color: var(--color-white);
+  width: 330px;
+  height: 48px;
+}
+.back5,
+.customer-support2,
+.technical-support2 {
+  position: absolute;
+  display: inline-block;
+}
+.customer-support2 {
+  top: 623px;
+  left: 892px;
+  color: var(--color-white);
+  width: 360px;
+  height: 48px;
+}
+.back5 {
+  top: 702px;
+  left: 1001px;
+  color: #fff9f9;
+  width: 236px;
+  height: 35px;
+}
+.main-menu {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

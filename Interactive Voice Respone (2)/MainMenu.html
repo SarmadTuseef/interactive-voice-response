@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./MainMenu.module.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Port Lligat Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main-menu">
+      <img class="voice-1-111" alt="" src="./public/voice-1-1@2x.png" />
+
+      <div class="ivr14">IVR</div>
+      <div class="home11" id="homeText">Home</div>
+      <div class="contact-us11">Contact Us</div>
+      <div class="about-us11">About Us</div>
+      <div class="products11">Products</div>
+      <img
+        class="christopher-campbell-rdeovte7v-icon8"
+        alt=""
+        src="./public/christophercampbellrdeovte7vosunsplash-1@2x.png"
+        id="christopherCampbellRDEOVtE7vImage"
+      />
+
+      <div class="main-menu-child"></div>
+      <div class="sarah8">Sarah</div>
+      <div class="bg3">
+        <div class="bg-child9"></div>
+        <div class="bg-child10"></div>
+      </div>
+      <div class="main-menu-item"></div>
+      <div class="main-menu-inner" id="rectangle4"></div>
+      <div class="main-menu-child1" id="rectangle5"></div>
+      <div class="main-menu-child2" id="rectangle6"></div>
+      <div class="main-menu-child3" id="rectangle7"></div>
+      <div class="main-menu-child4" id="rectangle8"></div>
+      <b class="main-menu1">Main Menu</b>
+      <div class="ivr15">IVR</div>
+      <div class="choose-the-desired2">Choose the desired option</div>
+      <div class="account-balance1">Account Balance</div>
+      <div class="recharge-options">Recharge Options</div>
+      <div class="technical-support2">Technical Support</div>
+      <div class="customer-support2">Customer Support</div>
+      <div class="back5">Back</div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var christopherCampbellRDEOVtE7vImage = document.getElementById(
+        "christopherCampbellRDEOVtE7vImage"
+      );
+      if (christopherCampbellRDEOVtE7vImage) {
+        christopherCampbellRDEOVtE7vImage.addEventListener("click", function (e) {
+          window.location.href = "./Profile.html";
+        });
+      }
+      
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./AccountBalance.html";
+        });
+      }
+      
+      var rectangle5 = document.getElementById("rectangle5");
+      if (rectangle5) {
+        rectangle5.addEventListener("click", function (e) {
+          window.location.href = "./CustomerSupport.html";
+        });
+      }
+      
+      var rectangle6 = document.getElementById("rectangle6");
+      if (rectangle6) {
+        rectangle6.addEventListener("click", function (e) {
+          window.location.href = "./TechnicalSupport.html";
+        });
+      }
+      
+      var rectangle7 = document.getElementById("rectangle7");
+      if (rectangle7) {
+        rectangle7.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var rectangle8 = document.getElementById("rectangle8");
+      if (rectangle8) {
+        rectangle8.addEventListener("click", function (e) {
+          window.location.href = "./Recharge.html";
+        });
+      }
+      </script>
+  </body>
+</html>

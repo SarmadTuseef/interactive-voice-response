@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./AccountBalance.module.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Port Lligat Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="account-balance">
+      <img class="voice-1-16" alt="" src="./public/voice-1-1@2x.png" />
+
+      <div class="ivr11">IVR</div>
+      <div class="home8" id="homeText">Home</div>
+      <div class="contact-us6">Contact Us</div>
+      <div class="about-us6">About Us</div>
+      <div class="products6">Products</div>
+      <img
+        class="christopher-campbell-rdeovte7v-icon7"
+        alt=""
+        src="./public/christophercampbellrdeovte7vosunsplash-1@2x.png"
+        id="christopherCampbellRDEOVtE7vImage"
+      />
+
+      <div class="account-balance-child"></div>
+      <div class="account-balance-item" id="rectangle1"></div>
+      <div class="sarah7">Sarah</div>
+      <div class="account-balance-inner"></div>
+      <div class="account-balance-child1"></div>
+      <div class="account-balance-child2" id="rectangle4"></div>
+      <div class="account-balance-child3"></div>
+      <div class="account-balance-child4"></div>
+      <img
+        class="hello-sarah-this-is-your-curr"
+        alt=""
+        src="./public/hello-sarah-this-is-your-current-account-information.svg"
+      />
+
+      <div class="account-balance-child5"></div>
+      <div class="your-balance">
+        <p class="your-balance1">Your Balance</p>
+      </div>
+      <div class="rs-67">Rs. 67</div>
+      <div class="recharge2">Recharge</div>
+      <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+      <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+
+      <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+
+      <div class="share-balance">Share Balance</div>
+      <div class="history">History</div>
+      <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+
+      <div class="daily-rewards">Daily Rewards</div>
+      <img class="image-5-icon" alt="" src="./public/image-5@2x.png" />
+
+      <div class="back4">Back</div>
+      <img class="image-6-icon" alt="" src="./public/image-6@2x.png" />
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var christopherCampbellRDEOVtE7vImage = document.getElementById(
+        "christopherCampbellRDEOVtE7vImage"
+      );
+      if (christopherCampbellRDEOVtE7vImage) {
+        christopherCampbellRDEOVtE7vImage.addEventListener("click", function (e) {
+          window.location.href = "./Profile.html";
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./MainMenu.html";
+        });
+      }
+      
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./Recharge.html";
+        });
+      }
+      </script>
+  </body>
+</html>

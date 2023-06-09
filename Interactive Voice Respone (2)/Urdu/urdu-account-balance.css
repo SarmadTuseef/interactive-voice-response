@@ -1,0 +1,257 @@
+.urdu-account-balance-child {
+  position: absolute;
+  height: calc(100% - 298px);
+  width: 100%;
+  top: 189px;
+  right: 0;
+  bottom: 109px;
+  left: 0;
+  background-color: var(--vrgear-light-color-secondary);
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 326px;
+  height: 263px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 98px;
+  left: 43px;
+  width: 119px;
+  height: 119px;
+  object-fit: cover;
+}
+.div {
+  position: absolute;
+  top: 14px;
+  left: 179px;
+  font-weight: 500;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 627px;
+  left: 446px;
+  width: 326px;
+  height: 263px;
+}
+.christopher-campbell-rdeovte7v-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-49xl);
+  width: 135px;
+  height: 136px;
+  object-fit: cover;
+}
+.group-item {
+  position: absolute;
+  top: 37px;
+  left: 160px;
+  border-radius: var(--br-46xl);
+  background-color: var(--vrgear-light-color-secondary);
+  width: 238px;
+  height: 63px;
+}
+.div1 {
+  position: absolute;
+  top: 29px;
+  left: 237px;
+}
+.christopher-campbell-rdeovte7v-parent {
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  width: 398px;
+  height: 136px;
+  color: var(--color-darkslateblue);
+}
+.div2 {
+  position: absolute;
+  top: 0;
+  left: 152px;
+  font-weight: 500;
+}
+.div3 {
+  top: 96px;
+  left: 0;
+  font-size: 24px;
+}
+.div3,
+.ivr,
+.parent {
+  position: absolute;
+}
+.parent {
+  top: 189px;
+  left: 1047px;
+  width: 375px;
+  height: 132px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslateblue);
+}
+.ivr {
+  top: 0;
+  left: calc(50% - 134.5px);
+  font-weight: 600;
+  display: inline-block;
+  width: 269px;
+  height: 49px;
+}
+.ivr-parent,
+.voice-1-1 {
+  position: absolute;
+  top: 0;
+  height: 67px;
+}
+.voice-1-1 {
+  left: 102px;
+  width: 76px;
+  object-fit: cover;
+}
+.ivr-parent {
+  left: calc(50% + 524px);
+  width: 269px;
+}
+.image-5-icon {
+  position: absolute;
+  top: 98px;
+  left: 44px;
+  width: 119px;
+  height: 119px;
+  object-fit: cover;
+}
+.div4 {
+  position: absolute;
+  top: 14px;
+  left: 49px;
+  font-weight: 500;
+}
+.image-2-icon,
+.rectangle-group {
+  position: absolute;
+  top: 627px;
+  left: 73px;
+  width: 326px;
+  height: 263px;
+}
+.image-2-icon {
+  top: 99px;
+  left: 43px;
+  width: 103px;
+  height: 119px;
+  object-fit: cover;
+}
+.div5 {
+  position: absolute;
+  top: 12px;
+  left: 81px;
+  font-weight: 500;
+}
+.group-child1,
+.rectangle-container {
+  position: absolute;
+  top: 353px;
+  left: 446px;
+  width: 326px;
+  height: 263px;
+}
+.group-child1 {
+  top: 3px;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+}
+.image-3-icon {
+  position: absolute;
+  top: 104px;
+  left: 44px;
+  width: 119px;
+  height: 119px;
+  object-fit: cover;
+}
+.div6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.group-child2,
+.group-div {
+  position: absolute;
+  top: 348px;
+  left: 73px;
+  width: 327px;
+  height: 266px;
+}
+.group-child2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 560px;
+  height: 537px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 130px;
+  left: 414px;
+  width: 109px;
+  height: 109px;
+  object-fit: cover;
+}
+.div7,
+.div8 {
+  position: absolute;
+  top: 12px;
+  left: 215px;
+  font-weight: 500;
+}
+.div8 {
+  top: 174px;
+  font-size: var(--font-size-29xl);
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 353px;
+  left: 842px;
+  width: 560px;
+  height: 537px;
+  font-size: var(--font-size-45xl);
+}
+.div10,
+.div11,
+.div12,
+.div9 {
+  position: absolute;
+  top: 95px;
+  left: 625px;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+}
+.div10,
+.div11,
+.div12 {
+  left: 889px;
+}
+.div11,
+.div12 {
+  left: 1166px;
+}
+.div12 {
+  left: 1372px;
+}
+.urdu-account-balance {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

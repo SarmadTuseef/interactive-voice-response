@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./SignInPage.module.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Port Lligat Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-in-page">
+      <div class="bg2">
+        <div class="bg-child6"></div>
+        <div class="bg-child7"></div>
+        <div class="bg-child8" id="rectangle2"></div>
+        <img class="voice-1-19" alt="" src="./public/voice-1-11@2x.png" />
+      </div>
+      <img class="voice-1-110" alt="" src="./public/voice-1-1@2x.png" />
+
+      <div class="ivr13">IVR</div>
+      <div class="home10" id="homeText">Home</div>
+      <div class="sign-in-page-child"></div>
+      <div class="contact-us9">Contact Us</div>
+      <div class="about-us9">About Us</div>
+      <div class="products9">Products</div>
+      <div class="sign-in-page-item" id="rectangle4"></div>
+      <div class="register5">Register</div>
+      <div class="sign-in3">Sign In</div>
+      <div class="sign-in-parent">
+      <b class="sign-in4">Sign In</b> 
+     </div>
+      <div class="to-ivr1">To IVR</div>
+      <div class="sign-in-page-inner" style="background-color: white;"></div>
+      <div class="sign-in-page-child1" style="background-color: white;"></div>
+      <div class="enter-password1">
+        <input type="text" name="password" id="password"  style="height: 42px; width: 400px; border: none; font-family: Poppins;" placeholder="Enter Password">
+      </div>
+      <div class="sign-in5">Sign In</div>
+      <div class="enter-email1">
+      <input type="text" name="email" id="email"  style="height: 42px; width: 400px; border: none; font-family: Poppins;" placeholder="Enter Email">
+      </div>
+    </div>
+
+    <script>
+      var eBorder = document.getElementById("email");
+
+if (eBorder) {
+  eBorder.addEventListener("click", function () {
+    eBorder.style.outline = "none";
+  });
+}
+var pBorder = document.getElementById("password");
+
+    if (pBorder) {
+      pBorder.addEventListener("click", function () {
+        pBorder.style.outline = "none";
+      });
+    }      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./Register.html";
+        });
+      }
+
+      var signInButton = document.getElementById("rectangle2");
+
+if (signInButton) {
+  signInButton.addEventListener("click", function (e) {
+    var passwordInput = document.getElementById("password").value;
+    var emailInput = document.getElementById("email").value;
+
+    if (emailInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter an email");
+      return;
+    }
+
+    if (!isValidEmail(emailInput)) {
+      e.preventDefault();
+      alert("Please enter a valid email address");
+      return;
+    }
+
+    if (passwordInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter a password");
+      return;
+    }
+    window.location.href = "./MainMenu.html";
+
+  });
+}
+
+function isValidEmail(email) {
+  var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  return emailRegex.test(email);
+}
+
+      
+      </script>
+  </body>
+</html>

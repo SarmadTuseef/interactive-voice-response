@@ -1,0 +1,199 @@
+.ivr3,
+.voice-1-12 {
+  position: absolute;
+  top: 0;
+}
+.voice-1-12 {
+  left: 24px;
+  width: 76px;
+  height: 67px;
+  object-fit: cover;
+}
+.ivr3 {
+  left: calc(50% - 598px);
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 269px;
+  height: 49px;
+}
+.about-us2,
+.contact-us2,
+.home4,
+.products2 {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  height: 25px;
+}
+.home4 {
+  top: 86px;
+  left: 13px;
+  width: 84px;
+  cursor: pointer;
+}
+.about-us2,
+.contact-us2,
+.products2 {
+  top: 87px;
+  left: 259px;
+  width: 146px;
+}
+.about-us2,
+.products2 {
+  top: 88px;
+  left: 427px;
+}
+.products2 {
+  top: 87px;
+  left: 119px;
+  width: 118px;
+}
+.christopher-campbell-rdeovte7v-icon3 {
+  position: absolute;
+  top: 9px;
+  left: 1293px;
+  border-radius: var(--br-49xl);
+  width: 135px;
+  height: 136px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.technical-support-child {
+  position: absolute;
+  top: 46px;
+  left: 1031px;
+  border-radius: var(--br-46xl);
+  background-color: var(--vrgear-light-color-secondary);
+  width: 238px;
+  height: 63px;
+}
+.sarah3 {
+  position: absolute;
+  top: 49px;
+  left: 1094px;
+  color: var(--vrgear-light-color-text-on-top);
+  display: inline-block;
+  width: 175px;
+  height: 68px;
+}
+.technical-support-item {
+  position: absolute;
+  top: 194px;
+  left: -5px;
+  background-color: var(--vrgear-light-color-secondary);
+  width: 1449px;
+  height: 727px;
+}
+.ivr4,
+.technical-support1 {
+  position: absolute;
+  top: 358px;
+  left: 109px;
+  font-size: var(--font-size-13xl);
+  line-height: 56px;
+  color: var(--vrgear-light-color-text-on-top);
+  display: inline-block;
+  width: 239px;
+  height: 35px;
+}
+.technical-support1 {
+  top: 308px;
+  left: 100px;
+  font-size: var(--font-size-45xl);
+  width: 674px;
+  height: 65px;
+}
+.technical-support-inner {
+  position: absolute;
+  top: 358px;
+  left: 855px;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-white);
+  width: 527px;
+  height: 465px;
+}
+.choose-the-desired1 {
+  position: absolute;
+  top: 375px;
+  left: 886px;
+  font-size: var(--font-size-13xl);
+  line-height: 56px;
+  display: inline-block;
+  width: 496px;
+  height: 59px;
+}
+.technical-support-child1 {
+  top: 454px;
+}
+.technical-support-child1,
+.technical-support-child2,
+.technical-support-child3,
+.technical-support-child4 {
+  position: absolute;
+  left: 885px;
+  border-radius: var(--br-xl);
+  background-color: var(--vrgear-light-color-text-on-top);
+  width: 467px;
+  height: 58px;
+}
+.technical-support-child2 {
+  top: 676px;
+  cursor: pointer;
+}
+.technical-support-child3,
+.technical-support-child4 {
+  top: 602px;
+}
+.technical-support-child4 {
+  top: 528px;
+}
+.back1,
+.device-settings,
+.internet-issues {
+  position: absolute;
+  top: 454px;
+  left: 982px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 287px;
+  height: 37px;
+}
+.back1,
+.device-settings {
+  top: 676px;
+  left: 1082px;
+}
+.device-settings {
+  top: 606px;
+  left: 982px;
+}
+.image-16-icon {
+  position: absolute;
+  top: 423px;
+  left: 105px;
+  border-radius: var(--br-8xl);
+  width: 615px;
+  height: 409px;
+  object-fit: cover;
+}
+.connectivity-issues {
+  position: absolute;
+  top: 528px;
+  left: 943px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 365px;
+  height: 37px;
+}
+.technical-support {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

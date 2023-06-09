@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Card.module.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Port Lligat Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <img class="voice-1-13" alt="" src="./public/voice-1-1@2x.png" />
+
+      <div class="ivr5">IVR</div>
+      <div class="home5" id="homeText">Home</div>
+      <div class="contact-us3">Contact Us</div>
+      <div class="about-us3">About Us</div>
+      <div class="products3">Products</div>
+      <img
+        class="christopher-campbell-rdeovte7v-icon4"
+        alt=""
+        src="./public/christophercampbellrdeovte7vosunsplash-1@2x.png"
+        id="christopherCampbellRDEOVtE7vImage"
+      />
+
+      <div class="card-child"></div>
+      <div class="sarah4">Sarah</div>
+      <div class="card-item"></div>
+      <div class="card-inner"></div>
+      <div class="card-child1" id="rectangle3"></div>
+      <div class="card-child2" id="confirmButton" style="cursor: pointer;"></div>
+      <div class="card-child3"></div>
+      <div class="card-child4"></div>
+      <div class="card-child5"></div>
+      <div class="enter-phone-number">
+        <input type="text" name="phnumber" id="phnumber"  style="height: 42px; width: 318px; border: none;font-family: Poppins;" placeholder="Enter Phone Number">
+      </div>
+      <div class="card-child6"></div>
+      <div class="card-child7"></div>
+      <div class="ivr6">IVR</div>
+      <b class="creditdebit-card">Credit/Debit Card</b>
+      <img class="image-9-icon" alt="" src="./public/image-9@2x.png" />
+
+      <img class="image-10-icon" alt="" src="./public/image-10@2x.png" />
+
+      <div class="enter-card-number">
+        <input type="text" name="cardnumber" id="cardnumber"  style="height: 42px; width: 318px; border: none;font-family: Poppins;" placeholder="Enter Card Number">
+      </div>
+      <div class="enter-card-holder">
+        <input type="text" name="cardholdername" id="cardholdername"  style="height: 42px; width: 318px; border: none;font-family: Poppins;" placeholder="Enter Card Holder Number">
+      </div>
+      <div class="cvv">
+        <input type="text" name="cvvnumber" id="cvvnumber"  style="height: 42px; width: 100px; border: none;font-family: Poppins;" placeholder="CVV">
+      </div>
+      <div class="yyyy">
+        <input type="text" name="year" id="year"  style="height: 42px; width: 100px; border: none;font-family: Poppins;" placeholder="yyyy">
+      </div>
+      <div class="mm">
+        <input type="text" name="month" id="month"  style="height: 42px; width: 100px; border: none;font-family: Poppins;" placeholder="mm">
+      </div>
+      <div class="confirm">Confirm</div>
+      <div class="back2">Back</div>
+      <img class="image-11-icon" alt="" src="./public/image-11@2x.png" />
+
+      <img class="image-13-icon" alt="" src="./public/image-13@2x.png" />
+
+      <img class="image-12-icon" alt="" src="./public/image-12@2x.png" />
+
+      <img class="image-14-icon" alt="" src="./public/image-13@2x.png" />
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var christopherCampbellRDEOVtE7vImage = document.getElementById(
+        "christopherCampbellRDEOVtE7vImage"
+      );
+      if (christopherCampbellRDEOVtE7vImage) {
+        christopherCampbellRDEOVtE7vImage.addEventListener("click", function (e) {
+          window.location.href = "./Profile.html";
+        });
+      }
+      
+      var rectangle3 = document.getElementById("rectangle3");
+      if (rectangle3) {
+        rectangle3.addEventListener("click", function (e) {
+          window.location.href = "./Recharge.html";
+        });
+      }
+      var phBorder = document.getElementById("phnumber");
+
+    if (phBorder) {
+      phBorder.addEventListener("click", function () {
+        phBorder.style.outline = "none";
+      });
+    }
+    var cnBorder = document.getElementById("cardnumber");
+
+    if (cnBorder) {
+      cnBorder.addEventListener("click", function () {
+        cnBorder.style.outline = "none";
+      });
+    }
+    var chnBorder = document.getElementById("cardholdername");
+
+    if (chnBorder) {
+      chnBorder.addEventListener("click", function () {
+        chnBorder.style.outline = "none";
+      });
+    }
+    var yBorder = document.getElementById("year");
+
+    if (yBorder) {
+      yBorder.addEventListener("click", function () {
+        yBorder.style.outline = "none";
+      });
+    }
+    var mBorder = document.getElementById("month");
+
+    if (mBorder) {
+      mBorder.addEventListener("click", function () {
+        mBorder.style.outline = "none";
+      });
+    }
+    var cvvBorder = document.getElementById("cvvnumber");
+
+    if (cvvBorder) {
+      cvvBorder.addEventListener("click", function () {
+        cvvBorder.style.outline = "none";
+      });
+    }
+
+
+
+
+      var confirmButton = document.getElementById("confirmButton");
+      if (confirmButton) {
+        confirmButton.addEventListener("click", function (e) {
+    var phoneNumberInput = document.getElementById("phnumber").value;
+    var cardNumberInput = document.getElementById("cardnumber").value;
+    var cardHolderNameInput = document.getElementById("cardholdername").value;
+    var cvvInput = document.getElementById("cvvnumber").value;
+    var yearInput = document.getElementById("year").value;
+    var monthInput = document.getElementById("month").value;
+
+    if (phoneNumberInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter a phone number");
+      return;
+    }
+    if (cardNumberInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter a card number");
+      return;
+    }
+    if (cardHolderNameInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter the card holder name");
+      return;
+    }
+    if (cvvInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter the CVV");
+      return;
+    }
+    if (yearInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter the year");
+      return;
+    }
+    if (monthInput.trim() === "") {
+      e.preventDefault();
+      alert("Please enter the month");
+      return;
+    }
+    alert("Your Balance is Recharged");
+        
+        });
+      }
+      </script>
+  </body>
+</html>
